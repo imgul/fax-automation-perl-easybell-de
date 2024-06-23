@@ -1,0 +1,176 @@
+[2024/06/23 06:19:37] INFO Start execution. App version=1.8
+[2024/06/23 06:21:54] INFO Start execution. App version=1.8
+[2024/06/23 06:21:54] ERROR Failed to access login page: 400 URL missing
+[2024/06/23 06:22:59] INFO Start execution. App version=1.8
+[2024/06/23 06:22:59] ERROR Failed to access login page: 400 URL missing
+[2024/06/23 06:24:48] INFO Start execution. App version=1.8
+[2024/06/23 06:24:48] DEBUG send HTTP GET https://login.easybell.de/fax
+[2024/06/23 06:24:51] DEBUG response is:
+[2024/06/23 06:24:51] DEBUG $VAR1 = bless( {
+                 '_protocol' => 'HTTP/1.1',
+                 '_msg' => 'OK',
+                 '_headers' => bless( {
+                                        'x-meta-viewport' => 'width=device-width, initial-scale=1, maximum-scale=1',
+                                        'date' => 'Sun, 23 Jun 2024 01:24:52 GMT',
+                                        'client-date' => 'Sun, 23 Jun 2024 01:24:51 GMT',
+                                        'client-ssl-cert-subject' => '/CN=*.easybell.de',
+                                        'client-ssl-cert-issuer' => '/C=US/O=Let\'s Encrypt/CN=R3',
+                                        'client-ssl-cipher' => 'TLS_AES_256_GCM_SHA384',
+                                        'client-peer' => '62.27.117.123:443',
+                                        'client-ssl-socket-class' => 'IO::Socket::SSL',
+                                        'client-response-num' => 1,
+                                        'connection' => 'close',
+                                        '::std_case' => {
+                                                          'client-transfer-encoding' => 'Client-Transfer-Encoding',
+                                                          'x-meta-charset' => 'X-Meta-Charset',
+                                                          'client-ssl-warning' => 'Client-SSL-Warning',
+                                                          'strict-transport-security' => 'Strict-Transport-Security',
+                                                          'client-ssl-version' => 'Client-SSL-Version',
+                                                          'set-cookie' => 'Set-Cookie',
+                                                          'set-cookie2' => 'Set-Cookie2',
+                                                          'client-response-num' => 'Client-Response-Num',
+                                                          'client-ssl-socket-class' => 'Client-SSL-Socket-Class',
+                                                          'link' => 'Link',
+                                                          'x-meta-viewport' => 'X-Meta-Viewport',
+                                                          'client-ssl-cert-subject' => 'Client-SSL-Cert-Subject',
+                                                          'client-date' => 'Client-Date',
+                                                          'client-ssl-cert-issuer' => 'Client-SSL-Cert-Issuer',
+                                                          'client-ssl-cipher' => 'Client-SSL-Cipher',
+                                                          'client-peer' => 'Client-Peer'
+                                                        },
+                                        'link' => [
+                                                    '<https://login.easybell.de/build/assets/main-fce8a2a7.css>; as="style"; rel="preload"',
+                                                    '<https://login.easybell.de/build/assets/main-bd36adc3.js>; rel="modulepreload"',
+                                                    '<https://login.easybell.de/build/assets/main-fce8a2a7.css>; rel="stylesheet"'
+                                                  ],
+                                        'content-type' => 'text/html; charset=UTF-8',
+                                        'vary' => 'X-Inertia,Accept-Encoding',
+                                        'client-ssl-warning' => 'Peer certificate not verified',
+                                        'strict-transport-security' => 'max-age=15724800; includeSubDomains',
+                                        'client-ssl-version' => 'TLSv1_3',
+                                        'cache-control' => 'no-cache, private',
+                                        'set-cookie' => [
+                                                          'XSRF-TOKEN=eyJpdiI6IlhlTkRkam9KMXlHZVMyMXVrMUVTTUE9PSIsInZhbHVlIjoiRmFZc3NwdXFIYmo5c1dMcjI2NTZqdXZlM0szbjA0RkNZQW5xT2Fja3dYby9CYlplTmpnK0tRajZ3aERyQzdoM1lxZWVZcXliS1FVVmJEL3lmUVJjT2Rva1lmMkxseTdQeGtjY0xIanRSK0dyUDhEaUU4VGJrdCtqQ3d3dTZtZGUiLCJtYWMiOiI4MjQxN2FmY2NhMTc4YWU3NjZhZDk0YmU0NTkxZjdhZmFlZGY2ZTY3MjdlZDIzZWIyYjcwMTliNzkxNjExNTRlIiwidGFnIjoiIn0%3D; expires=Sun, 23 Jun 2024 01:54:52 GMT; Max-Age=1800; path=/; secure; samesite=lax',
+                                                          'ekp_session=WJz7M0jEcETsQPrs0W5NwtQPJOZE83d8rvtlf216; path=/; secure; httponly; samesite=lax'
+                                                        ],
+                                        'client-transfer-encoding' => [
+                                                                        'chunked'
+                                                                      ],
+                                        'x-meta-charset' => 'utf-8'
+                                      }, 'HTTP::Headers' ),
+                 '_rc' => '200',
+                 '_previous' => bless( {
+                                         '_content' => '<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="0;url=\'https://login.easybell.de/login?redirect=https%3A%2F%2Flogin.easybell.de%2Ffax\'" />
+
+        <title>Redirecting to https://login.easybell.de/login?redirect=https%3A%2F%2Flogin.easybell.de%2Ffax</title>
+    </head>
+    <body>
+        Redirecting to <a href="https://login.easybell.de/login?redirect=https%3A%2F%2Flogin.easybell.de%2Ffax">https://login.easybell.de/login?redirect=https%3A%2F%2Flogin.easybell.de%2Ffax</a>.
+    </body>
+</html>',
+                                         '_request' => bless( {
+                                                                '_content' => '',
+                                                                '_uri' => bless( do{\(my $o = 'https://login.easybell.de/fax')}, 'URI::https' ),
+                                                                '_method' => 'GET',
+                                                                '_uri_canonical' => $VAR1->{'_previous'}{'_request'}{'_uri'},
+                                                                '_headers' => bless( {
+                                                                                       'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+                                                                                       '::std_case' => {
+                                                                                                         'if-ssl-cert-subject' => 'If-SSL-Cert-Subject',
+                                                                                                         'cookie' => 'Cookie'
+                                                                                                       }
+                                                                                     }, 'HTTP::Headers' )
+                                                              }, 'HTTP::Request' ),
+                                         '_rc' => '302',
+                                         '_headers' => bless( {
+                                                                'client-date' => 'Sun, 23 Jun 2024 01:24:49 GMT',
+                                                                'client-peer' => '62.27.117.123:443',
+                                                                'client-ssl-cert-issuer' => '/C=US/O=Let\'s Encrypt/CN=R3',
+                                                                'date' => 'Sun, 23 Jun 2024 01:24:51 GMT',
+                                                                'connection' => 'close',
+                                                                'content-type' => 'text/html; charset=utf-8',
+                                                                'client-ssl-version' => 'TLSv1_3',
+                                                                'vary' => 'X-Inertia',
+                                                                'set-cookie' => [
+                                                                                  'XSRF-TOKEN=eyJpdiI6IjlRY21jYzcvYlRYQkZsSFRvVGhLNnc9PSIsInZhbHVlIjoiWjc1R1FsZlFodmcxMmpkd2JuMU1JYloxR2kyeDlHQ1Qrd09ZRkEyODVvVTFzK3Rhb1B6TW4zOHl6a0p2WFdaT2RjZ2taR0hiL3k2WTFIRWpaN2RieUJqVFpBZi9mcld4aVNMcE9CRnB4cFE2eXE1QnBkTEFLaVRVMEI0WFhaTnQiLCJtYWMiOiIyODQ3YThkNjg3ODQzODFhOTg1MTQyYzQxODY5MzA1NDhmOGJkZDNhZDk0YTFlNjAzMDEwNjQyZjA0YjE4ZWE2IiwidGFnIjoiIn0%3D; expires=Sun, 23 Jun 2024 01:54:51 GMT; Max-Age=1800; path=/; secure; samesite=lax',
+                                                                                  'ekp_session=WJz7M0jEcETsQPrs0W5NwtQPJOZE83d8rvtlf216; path=/; secure; httponly; samesite=lax'
+                                                                                ],
+                                                                'title' => 'Redirecting to https://login.easybell.de/login?redirect=https%3A%2F%2Flogin.easybell.de%2Ffax',
+                                                                'cache-control' => 'no-cache, private',
+                                                                'client-transfer-encoding' => [
+                                                                                                'chunked'
+                                                                                              ],
+                                                                'client-ssl-cert-subject' => '/CN=*.easybell.de',
+                                                                'refresh' => '0;url=\'https://login.easybell.de/login?redirect=https%3A%2F%2Flogin.easybell.de%2Ffax\'',
+                                                                'client-ssl-cipher' => 'TLS_AES_256_GCM_SHA384',
+                                                                'location' => 'https://login.easybell.de/login?redirect=https%3A%2F%2Flogin.easybell.de%2Ffax',
+                                                                'client-response-num' => 1,
+                                                                'client-ssl-socket-class' => 'IO::Socket::SSL',
+                                                                '::std_case' => {
+                                                                                  'title' => 'Title',
+                                                                                  'set-cookie2' => 'Set-Cookie2',
+                                                                                  'set-cookie' => 'Set-Cookie',
+                                                                                  'client-ssl-warning' => 'Client-SSL-Warning',
+                                                                                  'client-ssl-version' => 'Client-SSL-Version',
+                                                                                  'strict-transport-security' => 'Strict-Transport-Security',
+                                                                                  'x-meta-charset' => 'X-Meta-Charset',
+                                                                                  'client-transfer-encoding' => 'Client-Transfer-Encoding',
+                                                                                  'content-base' => 'Content-Base',
+                                                                                  'base' => 'Base',
+                                                                                  'client-ssl-cert-issuer' => 'Client-SSL-Cert-Issuer',
+                                                                                  'client-ssl-cipher' => 'Client-SSL-Cipher',
+                                                                                  'client-peer' => 'Client-Peer',
+                                                                                  'refresh' => 'Refresh',
+                                                                                  'client-date' => 'Client-Date',
+                                                                                  'client-ssl-cert-subject' => 'Client-SSL-Cert-Subject',
+                                                                                  'client-response-num' => 'Client-Response-Num',
+                                                                                  'client-ssl-socket-class' => 'Client-SSL-Socket-Class'
+                                                                                },
+                                                                'strict-transport-security' => 'max-age=15724800; includeSubDomains',
+                                                                'client-ssl-warning' => 'Peer certificate not verified',
+                                                                'x-meta-charset' => 'UTF-8'
+                                                              }, 'HTTP::Headers' ),
+                                         '_msg' => 'Found',
+                                         '_protocol' => 'HTTP/1.1'
+                                       }, 'HTTP::Response' ),
+                 '_request' => bless( {
+                                        '_content' => '',
+                                        '_uri' => bless( do{\(my $o = 'https://login.easybell.de/login?redirect=https%3A%2F%2Flogin.easybell.de%2Ffax')}, 'URI::https' ),
+                                        '_method' => 'GET',
+                                        '_protocol' => undef,
+                                        '_headers' => bless( {
+                                                               'cookie' => 'ekp_session=WJz7M0jEcETsQPrs0W5NwtQPJOZE83d8rvtlf216; XSRF-TOKEN=eyJpdiI6IjlRY21jYzcvYlRYQkZsSFRvVGhLNnc9PSIsInZhbHVlIjoiWjc1R1FsZlFodmcxMmpkd2JuMU1JYloxR2kyeDlHQ1Qrd09ZRkEyODVvVTFzK3Rhb1B6TW4zOHl6a0p2WFdaT2RjZ2taR0hiL3k2WTFIRWpaN2RieUJqVFpBZi9mcld4aVNMcE9CRnB4cFE2eXE1QnBkTEFLaVRVMEI0WFhaTnQiLCJtYWMiOiIyODQ3YThkNjg3ODQzODFhOTg1MTQyYzQxODY5MzA1NDhmOGJkZDNhZDk0YTFlNjAzMDEwNjQyZjA0YjE4ZWE2IiwidGFnIjoiIn0%3D',
+                                                               '::std_case' => {
+                                                                                 'cookie2' => 'Cookie2',
+                                                                                 'cookie' => 'Cookie',
+                                                                                 'if-ssl-cert-subject' => 'If-SSL-Cert-Subject'
+                                                                               },
+                                                               'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+                                                               'cookie2' => '$Version="1"'
+                                                             }, 'HTTP::Headers' ),
+                                        '_uri_canonical' => bless( do{\(my $o = 'https://login.easybell.de/login?redirect=https%3A%2F%2Flogin.easybell.de%2Ffax')}, 'URI::https' )
+                                      }, 'HTTP::Request' ),
+                 '_content' => '<!DOCTYPE html>
+<html>
+  <head>
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({\'mtm.startTime\': (new Date().getTime()), \'event\': \'mtm.Start\'});
+        var d=document, g=d.createElement(\'script\'), s=d.getElementsByTagName(\'script\')[0];
+        g.async=true; g.src=\'https://matomo.easybell.de/js/container_izWSLsWO.js\'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="preload" as="style" href="https://login.easybell.de/build/assets/main-fce8a2a7.css" /><link rel="modulepreload" href="https://login.easybell.de/build/assets/main-bd36adc3.js" /><link rel="stylesheet" href="https://login.easybell.de/build/assets/main-fce8a2a7.css" /><script type="module" src="https://login.easybell.de/build/assets/main-bd36adc3.js"></script>      </head>
+  <body>
+    <div id="app" data-page="{&quot;component&quot;:&quot;Login&quot;,&quot;props&quot;:{&quot;errors&quot;:{},&quot;showPasswordSuccessAlert&quot;:false},&quot;url&quot;:&quot;\\/login?redirect=https%3A%2F%2Flogin.easybell.de%2Ffax&quot;,&quot;version&quot;:&quot;be8f6ea6d855e4852899dee190e097a9&quot;}"></div>  </body>
+</html>
+'
+               }, 'HTTP::Response' );
